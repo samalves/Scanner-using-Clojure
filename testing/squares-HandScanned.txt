@@ -1,0 +1,81 @@
+
+*** Input File: SQUARES.dgn ***
+
+<Id, PROGRAM>
+<Id, SQUARES>
+<SemiColon, ;>
+<Id, LOCAL>
+<Id, N>
+<Comma, ,>
+<Id, ODD>
+<Comma, ,>
+<Id, SQSUM>
+<SemiColon, ;>
+<Id, N>
+<AssignOp, :=>
+<IntLiteral, 25>
+<SemiColon, ;>
+<Id, ODD>
+<AssignOp, :=>
+<IntLiteral, 1>
+<SemiColon, ;>
+<Id, SQSUM>
+<AssignOp, :=>
+<IntLiteral, 0>
+<SemiColon, ;>
+<Id, WHILE>
+<LParen, (>
+<Id, SQSUM>
+<RelOp, <>
+<Id, N>
+<ExpOp, **>
+<IntLiteral, 2>
+<RParen, )>
+<Id, DO>
+<Id, SQSUM>
+<AssignOp, :=>
+<Id, SQSUM>
+<Plus, +>
+<Id, ODD>
+<SemiColon, ;>
+<Id, PRINT>
+<Id, ODD>
+<DivOp, />
+<IntLiteral, 2>
+<Plus, +>
+<IntLiteral, 1>
+<Comma, ,>
+<Id, SQSUM>
+<SemiColon, ;>
+<Id, ODD>
+<AssignOp, :=>
+<Id, ODD>
+<Plus, +>
+<IntLiteral, 2>
+<SemiColon, ;>
+<Id, ENDWHILE>
+<SemiColon, ;>
+<Id, END>
+<Period, .>
+<SCANEOF, -1>
+
+Id............23
+IntLiteral.....7
+LParen.........1
+RParen.........1
+SemiColon......9
+Comma..........3
+Period.........1
+AssignOp.......5
+Plus...........3
+Minus..........0
+MulOp..........0
+DivOp..........1
+ModOp..........0
+ExpOp..........1
+RelOp..........1
+SCANEOF........1
+
+Total.........57
+
+
